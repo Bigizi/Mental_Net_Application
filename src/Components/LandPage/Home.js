@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Login from '../Login/Login';
 import './home.css';
+import Navbar from './Navbar';
+// import main from '../images/profile.png'
+// import SignUp from '../Signup/SignUp';
+
 
 export default function Home() {
+  const [showLoginForm, setShowLoginForm] = useState(false);
+
   return (
+  
     <div className='container'>
-        <div className='nav_bar'>
-          <img src='' alt='' />
-          <div id='btn'>
-          <button>Login</button>
-          <button>Sign Up</button>
-        </div>
-        </div>  
+    {/* <img src='main' alt='' className='img' /> */}
+      <Navbar onLoginClick={_=>setShowLoginForm(true)} />
         
+        {
+          !showLoginForm ? null : <Login  />
+        }
 
         
         <p className='description'>We do care about your mental health</p>
@@ -22,6 +28,7 @@ export default function Home() {
              Cope with stresses of life.<br/> Work productively. <br/> Make meaningfull contribution to their communities.
              </p>
             </div>
+         
             <div className='right-text'>
               <h>Bad news</h><br/>
               <p>Unhappiness and decreased enjoyment of life.<br/> Family conflicts.<br/> Relationship difficulties.<br/>
@@ -30,6 +37,8 @@ export default function Home() {
               </p>
             </div> 
         </div>
+        {/* <SignUp /> */}
+        
     </div>
   )
 }
