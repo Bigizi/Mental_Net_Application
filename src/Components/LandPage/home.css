@@ -3,12 +3,13 @@
     height: 100%;
     background-color: #aeaeae;
     background: url('../images/main.png' ) ;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.nav_bar{
+/* .nav_bar{
     width: 100%;
-}
+} */
 .description{
     color: white;
     font-weight: bold;
@@ -19,12 +20,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
-    height: 70%;
+    width: 62%;
+    height: 40%;
     margin-top: 20px;
     margin-left: 25%;
-    background-color: antiquewhite;
-    border-radius: 25px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
     
 }
 

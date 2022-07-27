@@ -14,10 +14,9 @@ class Navbar extends Component {
     render() {
         return(
             <nav className='NavBarItems'>
-                <img src={Logo} />
+                <img src={Logo} alt=''/>
                 <h1 className='logo'>Mental Net</h1>
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
@@ -42,7 +41,7 @@ class Navbar extends Component {
      * @param {Event} evt 
      */
     _onLinckClick(url){
-        if(url=="#login")
+        if(url==="#login")
         this.props.onLoginClick();
 
     }
