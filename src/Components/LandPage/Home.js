@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import Login from '../Login/Login';
+import SignUp from '../Signup/SignUp';
 import './home.css';
 import Navbar from './Navbar';
-// import main from '../images/profile.png'
-// import SignUp from '../Signup/SignUp';
 
 
 export default function Home() {
@@ -12,11 +11,18 @@ export default function Home() {
   return (
   
     <div className='container'>
-      <Navbar onLoginClick={_=>setShowLoginForm(true)} />
+      <Navbar onClick={_=>setShowLoginForm(true)} />
+      {/* <SignUp /> */}
         
         {
-          !showLoginForm ? null : <Login  />
+          !showLoginForm ? null : <Login />
+          
         }
+        {
+          !showLoginForm ? null : <SignUp />
+          
+        }
+        
 
         
         <p className='description'>We do care about your mental health</p>

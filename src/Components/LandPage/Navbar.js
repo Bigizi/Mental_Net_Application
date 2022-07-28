@@ -25,7 +25,7 @@ class Navbar extends Component {
                         return(
                             <li key={index}>
                                 
-                                <a className={item.cName} href={item.url} onClick={_=>this._onLinckClick( item.url)} >
+                                <a className={item.cName} href={item.url} onClick={_=>this._onClick( item.url)}>
                                     {item.title}
                                 </a>
                             </li>
@@ -40,11 +40,16 @@ class Navbar extends Component {
      * 
      * @param {Event} evt 
      */
-    _onLinckClick(url){
-        if(url==="#login")
-        this.props.onLoginClick();
-
+    _onClick(url){
+        if(url === '#login' || url === '#sign-up'){
+            this.props.onClick();
+        }
     }
+    // _onClickSign(url){
+    //     if (url === '#signup'){
+    //         this.props.onClick();
+    //     }
+    // }
 }
 
 export default Navbar;

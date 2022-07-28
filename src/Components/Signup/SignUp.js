@@ -3,26 +3,47 @@ import './signup.css';
 
 export default function SignUp() {
     return(
-        <div className="container">
-            <div className="sub-container">
-                <div className="inputs">
-                    <label>Username:</label>
-                    <input type='text' className='name'/><br/>
+        <div className="container-1">
+             
+            <div className="sub-container-1">
+           
+               <form className="form">
+                 <div>
+                   <h1 id='head'>CREATE ACCOUNT NOW</h1>
+                 </div><br/>
+               
+                <div>
+                    <div>
+                    <input type='text' className='username' placeholder="Username"/>
+                    </div><br/>
 
-                    <label>Password:</label>
-                    <input type='password' className='pass'/><br/>
+                    <div> <input type='text' className='email' placeholder="Your Email"/></div><br/>
+                     
+                    <div>
+                    <input type='text' className='phone_n' placeholder="Phone number" />
+                    </div><br/>
 
-                    <label>Confirm Password:</label>
-                    <input type='password' className='pass'/><br/>
+                    <div>
+                    <input type='password' className='password' placeholder="Your Password"/>
+                    </div><br/>
 
-                    <label>Email:</label>
-                    <input type='text' className='email'/><br/>
-
-                    <label>Telephone:</label>
-                    <input type='number' className='phone_n' /><br/>
+                    <div>
+                    <input type='password' className='password' placeholder="Confirm password"/>
+                    </div><br/>
+                </div>  
+                <div>
+                    <div>
+                    <button className="btn-1">Sign up</button>
+                    </div>
+                    <div>
+                    <p className='links'>
+                    <a href='#'>Already have an account ?</a> or <a href='#'>Login</a>
+                    </p>
+                    </div>
                 </div>
+                </form>    
             </div>
         </div>
+        
     )
 }
-
