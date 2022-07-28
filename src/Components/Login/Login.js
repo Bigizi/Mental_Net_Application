@@ -14,7 +14,7 @@ export default function Login() {
                             <img src={profile} alt='profile' className='profile' />
                         </div>
                     </div>
-                    <div> <br/>
+                    <div><br/>
                 
                         <div className='first-input'>
                             <input type='text' placeholder='Username' className='name' />

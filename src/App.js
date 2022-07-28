@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div className='main_container'>
       <Home />
+    
     </div>
   )
 }

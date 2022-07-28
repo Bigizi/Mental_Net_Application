@@ -6,14 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* .nav_bar{
-    width: 100%;
-} */
 .description{
     color: white;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .body{
@@ -22,7 +18,7 @@
     align-items: center;
     width: 62%;
     height: 40%;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 25%;
     background-color: whitesmoke;
     border-radius: 20px;
