@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MenuItem } from './MenuItem';
 import './Navbar.css';
 import Logo from '../images/Logo.PNG'
+import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
 
@@ -25,9 +26,10 @@ class Navbar extends Component {
                         return(
                             <li key={index}>
                                 
-                                <a className={item.cName} href={item.url} onClick={_=>this._onClick( item.url)}>
+                                <Link to={`${item.url}`} className={item.cName}>
                                     {item.title}
-                                </a>
+                                </Link>
+                                
                             </li>
                         )
                     })}
@@ -36,20 +38,7 @@ class Navbar extends Component {
             </nav>
         )
     }
-    /**
-     * 
-     * @param {Event} evt 
-     */
-    _onClick(url){
-        if(url === '#login' || url === '#sign-up'){
-            this.props.onClick();
-        }
-    }
-    // _onClickSign(url){
-    //     if (url === '#signup'){
-    //         this.props.onClick();
-    //     }
-    // }
+    
 }
 
 export default Navbar;
