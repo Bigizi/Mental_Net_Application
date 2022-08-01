@@ -1,31 +1,15 @@
-import React, { useState } from 'react'
-import Login from '../Login/Login';
-import SignUp from '../Signup/SignUp';
+import React from 'react';
+import About from './About';
 import './home.css';
-import Navbar from './Navbar';
-
-
 export default function Home() {
-  const [showLoginForm, setShowLoginForm] = useState(false);
 
   return (
   
     <div className='container'>
-      <Navbar onClick={_=>setShowLoginForm(true)} />
-      {/* <SignUp /> */}
-        
-        {
-          !showLoginForm ? null : <Login />
-          
-        }
-        {
-          !showLoginForm ? null : <SignUp />
-          
-        }
-        
+          <div className='description'>
+            <p >We do care about your mental health</p>
+          </div> 
 
-        
-        <p className='description'>We do care about your mental health</p>
         <div className='body'>
             <div className='left-text'>
              <h>Good news:</h><br/><br/>
@@ -41,7 +25,9 @@ export default function Home() {
               Legal and financial problems.
               </p>
             </div> 
+            
       </div> 
+      <About />
     </div>
   )
 }
