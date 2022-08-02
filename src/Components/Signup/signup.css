@@ -3,17 +3,20 @@
     justify-content: center;
     display: flex;
     padding: 30px 0px 90px 0px;
-    /* background-color: gray; */
+    background-color: gray;
+    background-image: url('../images/main.png');
+    background-size: cover;
 }
 .sub-container-1{
     display: flex;
     justify-content: center;
-    height: 460px;
+    height: 520px;
     width: 35%;
     /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
     padding-top: 30px;
-    border-radius: 60px;
+    border-radius: 59px;
     background-color: white;
+    overflow: hidden;
 }
 .form{
     width: 500px;
@@ -29,8 +32,7 @@
     background-color: skyblue;
     font-size: 13px;
     margin-top: -50px;
-    width: 400px;
-    margin-left: 12px;
+    width: 100%;
 }
 .username, .email, .phone_n, .password{
     padding-left: 70px;
