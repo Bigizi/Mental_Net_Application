@@ -5,6 +5,7 @@
     background: url('../images/main.png' ) ;
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
 }
 .description{
     color: white;
