@@ -1,12 +1,14 @@
 import React from 'react';
 import About from './About';
 import './home.css';
+
 export default function Home() {
 
   return (
   
     <div className='container'>
           <div className='description'>
+            
             <p >We do care about your mental health</p>
           </div> 
 

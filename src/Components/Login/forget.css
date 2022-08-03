@@ -11,10 +11,10 @@
     justify-content: center;
     align-items: center;
 }
-.app-wrapper-1{
+.app-wrap{
     background-color: #fff;
     width: 350px;
-    min-width: 330px;
+    min-width: 320px;
     min-height: 420px;
     padding: 30px;
     border-radius: 30px;
@@ -25,7 +25,6 @@
     text-align: center;
     margin: 10px 0px 40px 0px;
 }
-.name-1,
 .password{
     margin: 20px;
     color: black;
@@ -61,16 +60,4 @@
 }
 button:active{
     transform: translateY(2px);
-}
-
-
-@media screen and (max-width: 900px ){
-    .app-wrapper-1{
-        width: 0%;
-    }
-}
-@media screen and (max-width:600px){
-    .app-wrapper-1{
-        width: 80%;
-    }
 }

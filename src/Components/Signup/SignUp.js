@@ -1,47 +1,45 @@
-import React from "react";
-import './signup.css';
+import React from 'react'
+import { Link } from 'react-router-dom';
+import './signup.css'
 
-export default function SignUp() {
-    return(
-        <div className="container-1">
-            <div className="sub-container-1">
-
-             <form className="form">  
-               
-                 <div>
-                   <h1 id='head'>CREATE ACCOUNT NOW</h1>
-                 </div><br/>
-               
-                <div>
-                    <div>
-                    <input type='text' className='username' placeholder="Username"/>
-                    </div><br/>
-
-                    <div> <input type='text' className='email' placeholder="Your Email"/></div><br/>
-                     
-                    <div>
-                    <input type='text' className='phone_n' placeholder="Phone number" />
-                    </div><br/>
-
-                    <div>
-                    <input type='password' className='password' placeholder="Your Password"/>
-                    </div><br/>
-
-                    <div>
-                    <input type='password' className='password' placeholder="Confirm password"/>
-                    </div><br/>
-                </div>  
-                <div>
-                    <div>
-                    <button className="btn-1">Sign up</button>
-                    </div>
-                    <div>
-                    <p className="links">Already have an account ?</p><a href='#'>Login</a>
-                    </div>
-                </div>
-              </form>      
+function SignUp() {
+  return (
+    <div className='container-3'>
+        <div className='app-wrapper'>
+            <div>
+            <h2 className='title'>Create Account</h2>
             </div>
-        </div>
         
-    )
+        <form className='form-wrapper'>
+            
+            <div className='name-1'>
+                <label className='label'>Full Name</label>
+                <input className='input-field' type='text' /> 
+            </div>
+            <div className='email'>
+                <label className='label'>Email</label>
+                <input className='input-field' type='email' /> 
+            </div>
+            <div className='phone'>
+                <label className='label'>Phone Number</label>
+                <input className='input-field' type='text' /> 
+            </div>
+            <div className='password'>
+                <label className='label'>Password</label>
+                <input className='input-field' type='password' /> 
+            </div>
+            <div className='password'>
+                <label className='label'>Confirm Password</label>
+                <input className='input-field' type='password' /> 
+            </div>
+            <div>
+                <button className='submit'>Sign Up</button>
+            </div><br/>
+            <p className='paragraph'>Already have account?   <Link to='/login'>Login</Link> </p>
+        </form>
+     </div>
+    </div>
+  )
 }
+
+export default SignUp;
