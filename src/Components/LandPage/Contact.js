@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="container-3">
       <div className="app-wrap1">
         <div>
-              <h2 className='title-1'>Contact Us Here</h2>
+              <h2 className='title-1'>Contact Us Now</h2>
         </div>
         <form className='form-wrapper'>
             <div className='name-1'>
