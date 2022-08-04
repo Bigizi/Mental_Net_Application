@@ -6,6 +6,7 @@ import Login from './Components/Login/Login'
 import SignUp from './Components/Signup/SignUp'
 import Navbar from './Components/LandPage/Navbar'
 import Forget from './Components/Login/Forget'
+import Contact from './Components/LandPage/Contact'
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/signup' element={<SignUp/>} />
       <Route path='/forget' element={<Forget/>} />
+      <Route path='/contactus' element={<Contact/>}/>
     </Routes>
     
     </>

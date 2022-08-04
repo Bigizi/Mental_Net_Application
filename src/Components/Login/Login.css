@@ -14,11 +14,11 @@
 .app-wrapper-1{
     background-color: #fff;
     width: 350px;
-    min-width: 330px;
+    min-width: 320px;
     min-height: 420px;
     padding: 30px;
-    border-radius: 30px;
-    margin-top: 45px;
+    border-radius: 20px;
+    margin-top: 65px;
 }
 .title{
     color: skyblue;
