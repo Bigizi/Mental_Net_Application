@@ -1,5 +1,5 @@
 .NavBarItems {
-    background-color: skyblue;
+    background-color: white;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -14,6 +14,7 @@
     justify-self: start;
     margin-left: 10px;
     cursor: pointer;
+    font-size: medium;
   }
   .fa-react {
     margin-left: 0.5rem;
@@ -28,11 +29,9 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
-    
-    /* overflow-x: scroll; */
   }
   .nav-links {
-    color: white;
+    color: #3CDAB4;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
@@ -42,11 +41,22 @@
     transition: all 0.2s ease-out;
   }
   .nav-links-btn {
-    color: white;
+    color: #3CDAB4;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 35px;
+  }
+  .nav-links-btn-1 {
+    color: #3CDAB4;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
   .nav-links-btn:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+  .nav-links-btn-1:hover {
     background-color: #6d76f7;
     border-radius: 4px;
     transition: all 0.2s ease-out;
@@ -61,8 +71,7 @@
       min-height: 100px;
       height: auto;
       width: 100%;
-      overflow-x: hidden;
-      
+      overflow-x: hidden; 
     }
     .nav-menu {
       width: 100%;
@@ -76,7 +85,6 @@
     }
     .nav-links {
       font-size: 10px;
-     
     }
   }
   

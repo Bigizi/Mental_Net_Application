@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MenuItem } from './MenuItem';
 import './Navbar.css';
-import Logo from '../images/Logo.PNG'
+import Logo from '../images/logo.jpg'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
@@ -27,7 +27,7 @@ class Navbar extends Component {
                             <li key={index}>
                                 
                                 <Link to={`${item.url}`} className={item.cName}>
-                                    {item.title}
+                                    {item.title}{item.btn}
                                 </Link>
                                 
                             </li>
