@@ -6,9 +6,9 @@ import Login from './Components/Login/Login'
 import SignUp from './Components/Signup/SignUp'
 import Navbar from './Components/Navigation/Navbar'
 import Forget from './Components/Forget/Forget'
-import Contact from './Components/contact/Contact'
+// import Contact from './Components/contact/Contact'
 import Landing from './Components/LandPage/Landing'
-import Dashboard from './Components/Navigation/Dashboard/Dashboard'
+import Dashboard from './Components/Dashboard/Dashboard'
 
 
 export default function App() {

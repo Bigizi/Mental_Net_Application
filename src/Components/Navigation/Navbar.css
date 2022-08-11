@@ -39,6 +39,7 @@
     background-color: #6d76f7;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: black;
   }
   .nav-links-btn {
     color: #3CDAB4;
@@ -55,11 +56,13 @@
     background-color: #6d76f7;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: black;
   }
   .nav-links-btn-1:hover {
     background-color: #6d76f7;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: black;
   }
   .fa-bars {
     color: #fff;

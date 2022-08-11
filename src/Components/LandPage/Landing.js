@@ -52,11 +52,10 @@ export default function Landing() {
             <section className='footer-container'>
                 <div className='mental'>
                   <h2 id='mental-h'>Why Mental Healthy?</h2><br/>
-                  <p>Everyone needs a stable mind to control every situation tha come s into his/her ways
-                    and <br/>no one can handle handle it alone we finally need each other to make a miserable life<br/> situation
-                    turn into opportunity.
+                  <p>
+                    You feel good about yourself<br/> You do not become overwhelmed by emotions, such as fear, anger, love, jealousy, guilt, or anxiety<br/>You feel comfortable with other people<br/>You  are able to accept life’s disappointments<br/>You make your own decisions
                   </p>
-                </div><br/>
+                </div>
                 <div className='footer'>
                   <h2 id='footer-h'>How we Accomplish our mission</h2><br/>
                   <p>The way and strategies to accomplish this mission is simple as make it simple for you.<br/>
