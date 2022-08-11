@@ -1,0 +1,100 @@
+.container-landing{
+    display: flex;
+    place-items: center;
+    /* background-color: gray; */
+    
+}
+.sub-container-landing{
+    background-color: lemonchiffon;
+    height: 100%;
+    width: 100%;
+    box-shadow: 4px 0px 4px 4px  rgba(0.2, 0.2, 0.2, 0.2); 
+    place-items: center;  
+}
+.body{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 80px;
+}
+#body-btn{
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.image{
+   margin-left: 45%;
+   border-radius: 20px;
+   height: 85%;
+   width: 85%;
+   
+}
+#body-para{
+    font-size: 50px;
+    color: black;
+    gap: 50px;
+}
+
+.About-us{
+    margin-top: 35px;
+    margin-left: 80px;
+    display: flex;
+}
+#about-us-h{
+    color: #3CDAB4;
+    font-weight: bold;
+    font-size: 25px;
+}
+.logo-middle{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+}
+.middle-section{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+#middle-section-h{
+    color: #3CDAB4;
+    font-weight: bold;
+    font-size: 25px;
+}
+.middle-section-min{
+    display: flex;
+}
+.middle-section-img{
+    width: 80%;
+    height: 80%;
+}
+.middle-section-txt{
+    margin-top: 2%;
+}
+#middle-h{
+    color: #3CDAB4;
+    font-weight: bold;
+}
+.footer-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.mental{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+#mental-h{
+    color: #3CDAB4;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer{
+    margin-top: 15px;
+    margin-left: 80px; 
+}
+#footer-h{
+    color: #3CDAB4;
+    font-weight: bold;
+    font-size: 25px;
+}
