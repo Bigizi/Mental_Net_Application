@@ -1,7 +1,7 @@
 .container-landing{
     display: flex;
+    width: 100%;
     place-items: center;
-    /* background-color: gray; */
     
 }
 .sub-container-landing{
@@ -13,6 +13,7 @@
 }
 .body{
     display: flex;
+    overflow-x: hidden;
     margin-top: 10%;
     margin-left: 80px;
 }
@@ -26,10 +27,10 @@
 }
 
 .image{
-   margin-left: 45%;
+   margin-left: 35%;
    border-radius: 20px;
-   height: 85%;
-   width: 85%;
+   height: 80%;
+   width: 75%;
    
 }
 #body-para{
@@ -97,4 +98,15 @@
     color: #3CDAB4;
     font-weight: bold;
     font-size: 25px;
+}
+
+@media screen and (max-width: 900px ){
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        margin-left: 0%;
+        align-self: flex-start;
+    }
 }
